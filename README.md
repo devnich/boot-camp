@@ -1,15 +1,15 @@
 
 # Table of Contents
 
-1.  [Overview](#orgc30b596)
-2.  [Python workshop](#org1bb65f6)
-    1.  [Summative Assessment](#orgee54cee)
-    2.  [Curriculum modifications and comments](#org570fe99)
-3.  [R curriculum](#org079ac39)
+1.  [Overview](#orgd4acfcc)
+2.  [Python workshop](#org5fffff8)
+    1.  [Summative Assessment](#orgd63c9c6)
+    2.  [Curriculum modifications and comments](#org86067c0)
+3.  [R curriculum](#org185ece0)
 
 
 
-<a id="orgc30b596"></a>
+<a id="orgd4acfcc"></a>
 
 # Overview
 
@@ -22,7 +22,7 @@ The target audience for these workshops is incoming graduate students who need R
 Most R curricula strike the appropriate balance. The Carpentries Python curriculum will need some trimming (too much general-purpose programming).
 
 
-<a id="org1bb65f6"></a>
+<a id="org5fffff8"></a>
 
 # Python workshop
 
@@ -31,7 +31,7 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
 2.  Alternative Carpentry curriculum: <https://datacarpentry.org/python-ecology-lesson/>
 
 
-<a id="orgee54cee"></a>
+<a id="orgd63c9c6"></a>
 
 ## Summative Assessment
 
@@ -39,7 +39,7 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
 2.  Final: extract data from Pandas dataframe and create comparative multi-line time series plot.
 
 
-<a id="org570fe99"></a>
+<a id="org86067c0"></a>
 
 ## Curriculum modifications and comments
 
@@ -72,11 +72,13 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
 13. Writing Functions: How can I create my own functions?
     -   "Using Functions With Conditionals in Pandas" challenge from <span class="underline">Conditionals</span> lesson
 14. Variable Scope: How do function calls actually work? How can I determine where errors occurred?
+    -   Skip if necessary.
 15. Programming Style: How can I make my programs more readable? How do most programmers format their code? How can programs check their own operation?
+    -   Skip if necessary.
 16. Wrap-Up: What have we learned? What else is out there and where do I find it?
 
 
-<a id="org079ac39"></a>
+<a id="org185ece0"></a>
 
 # R curriculum
 
