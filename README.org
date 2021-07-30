@@ -17,8 +17,8 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
 * Python workshop
 
 1. Carpentry curriculum: http://swcarpentry.github.io/python-novice-gapminder/index.html
-2. Lesson design commentary: http://swcarpentry.github.io/python-novice-gapminder/design/
-3. Alternative Carpentry curriculum: https://datacarpentry.org/python-ecology-lesson/
+   - Lesson design commentary: http://swcarpentry.github.io/python-novice-gapminder/design/
+2. Alternative Carpentry curriculum: https://datacarpentry.org/python-ecology-lesson/
 
 ** Summative Assessment
 1. Midpoint: create time-series plot for each file in a directory.
