@@ -1,0 +1,64 @@
+#+STARTUP: showall indent
+#+OPTIONS: tex:t toc:2 H:6 ^:{}
+#+ODT_STYLES_FILE: "/Users/gilgamesh/Google Drive/Templates/styles.xml"
+
+#+TITLE: Incoming grad student boot camp
+#+AUTHOR: Derek Devnich
+
+* Overview
+The target audience for these workshops is incoming graduate students who need R or Python for their first-semester statistics classes. With this in mind, the workshops will have a slightly narrower focus than the standard Carpentry curriculum. We want to teach three big-picture topics:
+
+1. Working with data (import/export, manipulating data in data frames)
+2. Graphing data
+3. Enough general-purpose programming to make (1) and (2) possible
+
+Most R curricula strike the appropriate balance. The Carpentries Python curriculum will need some trimming (too much general-purpose programming).
+
+* Python workshop
+
+1. Carpentry curriculum: http://swcarpentry.github.io/python-novice-gapminder/index.html
+2. Lesson design commentary: http://swcarpentry.github.io/python-novice-gapminder/design/
+3. Alternative Carpentry curriculum: https://datacarpentry.org/python-ecology-lesson/
+
+** Summative Assessment
+1. Midpoint: create time-series plot for each file in a directory.
+2. Final: extract data from Pandas dataframe and create comparative multi-line time series plot.
+
+** Curriculum modifications and comments
+1. Running and Quitting: How can I run Python programs?
+   - Skip markdown.
+   - In general, you can and should skip using the print() function in Jupyter Lab
+2. Variables and Assignment: How can I store data in programs?
+   - Skip challenges
+3. Data Types and Type Conversion: What kinds of data do programs store? How can I convert one type to another?
+   - DO NOT teach the string *+* operator.
+   - Skip challenges.
+4. Built-in Functions and Help: How can I use built-in functions? How can I find out what they do? What kind of errors can occur in programs?
+   - "Why not?" challenge
+5. Libraries: How can I use software that other people have written? How can I find out what that software does?
+   - "Locating the right module" challenge
+6. Reading Tabular Data into DataFrames: How can I read tabular data?
+   - All challenges
+7. Pandas DataFrames: How can I do statistical analysis of tabular data?
+   - This lesson uses ~df.iloc~ for subsetting data. We should teach the declarative, dplyr-like filtering/subsetting functions wherever appropriate. See e.g. https://pandas.pydata.org/docs/user_guide/groupby.html
+8. Plotting: How can I plot my data? How can I save my plot for publishing?
+   - Use object-oriented Matplotlib syntax, e.g.: ~fig, axes = plt.subplot()~
+   - See https://datacarpentry.org/python-socialsci/13-matplotlib/index.html for an alternative approach
+9. Lists: How can I store multiple values?
+   - Skip challenges.
+10. For Loops: How can I make a program do many things?
+    - Skip challenges.
+11. Conditionals: How can programs do different things for different data?
+12. Looping Over Data Sets: How can I process many data sets with a single command?
+    - "Comparing data" challenge
+13. Writing Functions: How can I create my own functions?
+    - "Using Functions With Conditionals in Pandas" challenge from _Conditionals_ lesson
+14. Variable Scope: How do function calls actually work? How can I determine where errors occurred?
+15. Programming Style: How can I make my programs more readable? How do most programmers format their code? How can programs check their own operation?
+16. Wrap-Up: What have we learned? What else is out there and where do I find it?
+
+* R curriculum
+1. Andrea's curriculum: https://andreasancheztapia.github.io/UCMerced_R/
+2. Carpentry curricula (tidyverse-oriented)
+   1. https://datacarpentry.org/r-socialsci/
+   2. https://datacarpentry.org/R-ecology-lesson/index.html

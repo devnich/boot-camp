@@ -1,0 +1,5 @@
+*.odt
+*.docx
+*.~lock.*
+*.orig
+.DS_Store
