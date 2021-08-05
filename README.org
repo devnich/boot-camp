@@ -30,6 +30,7 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
    - In general, you can and should skip using the print() function in Jupyter Lab
 2. Variables and Assignment: How can I store data in programs?
    - Skip challenges
+   - move string indexing to types
 3. Data Types and Type Conversion: What kinds of data do programs store? How can I convert one type to another?
    - DO NOT teach the string *+* operator.
    - Skip challenges.
@@ -55,9 +56,9 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
     - "Using Functions With Conditionals in Pandas" challenge from _Conditionals_ lesson
 14. Variable Scope: How do function calls actually work? How can I determine where errors occurred?
     - Skip if necessary.
-16. Programming Style: How can I make my programs more readable? How do most programmers format their code? How can programs check their own operation?
+15. Programming Style: How can I make my programs more readable? How do most programmers format their code? How can programs check their own operation?
     - Skip if necessary.
-17. Wrap-Up: What have we learned? What else is out there and where do I find it?
+16. Wrap-Up: What have we learned? What else is out there and where do I find it?
 
 * R curriculum
 1. Andrea's curriculum: https://andreasancheztapia.github.io/UCMerced_R/

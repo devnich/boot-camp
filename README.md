@@ -1,15 +1,15 @@
 
 # Table of Contents
 
-1.  [Overview](#orgd4acfcc)
-2.  [Python workshop](#org5fffff8)
-    1.  [Summative Assessment](#orgd63c9c6)
-    2.  [Curriculum modifications and comments](#org86067c0)
-3.  [R curriculum](#org185ece0)
+1.  [Overview](#org6e6f415)
+2.  [Python workshop](#org9e9433d)
+    1.  [Summative Assessment](#org92a298a)
+    2.  [Curriculum modifications and comments](#org472002c)
+3.  [R curriculum](#orgdcbdf76)
 
 
 
-<a id="orgd4acfcc"></a>
+<a id="org6e6f415"></a>
 
 # Overview
 
@@ -22,7 +22,7 @@ The target audience for these workshops is incoming graduate students who need R
 Most R curricula strike the appropriate balance. The Carpentries Python curriculum will need some trimming (too much general-purpose programming).
 
 
-<a id="org5fffff8"></a>
+<a id="org9e9433d"></a>
 
 # Python workshop
 
@@ -31,7 +31,7 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
 2.  Alternative Carpentry curriculum: <https://datacarpentry.org/python-ecology-lesson/>
 
 
-<a id="orgd63c9c6"></a>
+<a id="org92a298a"></a>
 
 ## Summative Assessment
 
@@ -39,7 +39,7 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
 2.  Final: extract data from Pandas dataframe and create comparative multi-line time series plot.
 
 
-<a id="org86067c0"></a>
+<a id="org472002c"></a>
 
 ## Curriculum modifications and comments
 
@@ -48,6 +48,7 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
     -   In general, you can and should skip using the print() function in Jupyter Lab
 2.  Variables and Assignment: How can I store data in programs?
     -   Skip challenges
+    -   move string indexing to types
 3.  Data Types and Type Conversion: What kinds of data do programs store? How can I convert one type to another?
     -   DO NOT teach the string **+** operator.
     -   Skip challenges.
@@ -78,7 +79,7 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
 16. Wrap-Up: What have we learned? What else is out there and where do I find it?
 
 
-<a id="org185ece0"></a>
+<a id="orgdcbdf76"></a>
 
 # R curriculum
 
