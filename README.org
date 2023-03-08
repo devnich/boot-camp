@@ -65,3 +65,12 @@ Most R curricula strike the appropriate balance. The Carpentries Python curricul
 2. Carpentry curricula (tidyverse-oriented)
    1. https://datacarpentry.org/r-socialsci/
    2. https://datacarpentry.org/R-ecology-lesson/index.html
+
+** Teaching order
+1. Derek: Intro to R
+2. Andrea: Starting with Data (speeding through factors)
+3. Derek: Manipulating Data (speed through spread and gather)
+4. Andrea: VisualizingData
+
+* TODO Add package installation to install instructions
+install.packages("tidyverse")

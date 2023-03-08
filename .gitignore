@@ -1,5 +1,39 @@
+# Generated documentation
 *.odt
 *.docx
 *.~lock.*
 *.orig
+tmp.md
+
+# System files
 .DS_Store
+
+# R environmental variables
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Renviron
+/*.Rcheck/
+.Rproj.user/
+
+# Jupyter environmental variables
+.ipynb_checkpoints/
+
+# Data folders except gapminder data
+data/*.csv
+!data/gapminder*.csv
+processed/*
+
+# Git archives
+/R-2022-august/
+
+# Archives
+*.zip
+
+# Generated files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
